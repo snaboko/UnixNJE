@@ -397,7 +397,7 @@ install: install-man
 	-mkdir -p /var/spool/bitnet
 	chgrp ${NJEGRP} /var/spool/bitnet
 	#Ensure that qrdr and other utilities can cd to 
-  #the root of the spool directory
+	#the root of the spool directory
 	chmod g+w,o=x  /var/spool/bitnet
 	mkdir -p /var/spool/bitspool
 	chgrp ${NJEGRP} /var/spool/bitspool
